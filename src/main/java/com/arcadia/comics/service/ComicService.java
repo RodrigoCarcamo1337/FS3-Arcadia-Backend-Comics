@@ -15,9 +15,11 @@ public class ComicService {
 
     public ComicService() {
         // Inicializando con algunos datos de prueba
-        comics.add(new Comic(UUID.randomUUID().toString(), "Batman: El Caballero de la Noche Regresa", "Frank Miller", "DC Comics", 19.99, 10));
+        comics.add(new Comic(UUID.randomUUID().toString(), "Batman: El Caballero de la Noche Regresa", "Frank Miller",
+                "DC Comics", 19.99, 10));
         comics.add(new Comic(UUID.randomUUID().toString(), "Watchmen", "Alan Moore", "DC Comics", 24.99, 5));
-        comics.add(new Comic(UUID.randomUUID().toString(), "Spider-Man: La Última Cacería de Kraven", "J.M. DeMatteis", "Marvel", 15.50, 8));
+        comics.add(new Comic(UUID.randomUUID().toString(), "Spider-Man: La Última Cacería de Kraven", "J.M. DeMatteis",
+                "Marvel", 15.50, 8));
     }
 
     public List<Comic> getAllComics() {
